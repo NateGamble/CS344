@@ -1,0 +1,22 @@
+2.1
+    a) Both local search algorithms solve the problem, and each algorithm finds the correct solution.
+    b) Both algorithms are roughly the same speed
+    c) The starting x value does not make a difference, XXXXXXXXXX don't know why XXXXXXXXXX
+    d) Changing the delta step value makes the algorithms find the best value a multiple of the delta value away from the initial position
+    e)
+
+2.2
+    a)
+    b)
+    c)
+    d)
+
+2.3
+    a)
+    b)
+    c)
+
+2.4
+    a)
+    b)
+    c) 
