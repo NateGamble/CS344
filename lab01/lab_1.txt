@@ -1,0 +1,10 @@
+B.
+	1. Function
+	2. Arrays
+	3. No
+D.
+	1. Blocksworld, the agent can hold one item at a time and move it to a spot on top of another item or on the floor.
+		This problem does not implement Blocksworld faithfully because the monkey is holding a ball while pushing the chair.
+	2. The GPS starts at certain states, then follows operations from those states until it finds a path to the end condition.
+	3. Yes, acting rationally
+	4. Yes
