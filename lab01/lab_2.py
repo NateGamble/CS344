@@ -1,3 +1,7 @@
+import sys
+sys.path.append('/home/neg6/cs344/cs344-code/tools/aima')
+sys.path.append('/home/neg6/cs344/cs344-code/tools/paip')
+
 from gps import gps
 
 problem = {

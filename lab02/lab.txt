@@ -1,22 +1,22 @@
 2.1
     a) Both local search algorithms solve the problem, and each algorithm finds the correct solution.
     b) Both algorithms are roughly the same speed
-    c) The starting x value does not make a difference, XXXXXXXXXX don't know why XXXXXXXXXX
+    c) The starting x value does not make a difference, because there is no local minimums in the graph
     d) Changing the delta step value makes the algorithms find the best value a multiple of the delta value away from the initial position
-    e)
+    e) The exp_schedule() method simuates the temperature in annealing. It gets smaller as time increses.
 
 2.2
-    a)
-    b)
-    c)
-    d)
+    a) The hill-climb algorithm doesn't do that great, the simulated annealing generally does better than hill-climb
+    b) The starting value makes all the difference for hill-climb. Hill-climb finds the closest local maximum to the starting postition. The starting position doesn't matter for simulated annealing
+    c) Hill-climbing is affected by the step size because that's how far around its current position it looks. Simulated annealing is unaffected by step size
+    d) The minimum value is 0, the maximum is infinity.
 
 2.3
-    a)
-    b)
-    c)
+    a) The hill-climb algorithm doesn't do all that great wit random restarts, but the simulated annealing does pretty ok
+    b) The average values of the runs for hill-climb is consistently between 13 and 14, while simulated annealing is between 20 and 21
+    c) Simulated annealing does better because how it performs doesn't depend on the starting location, while hill-climb relies on a good starting location
 
 2.4
-    a)
-    b)
-    c) 
+    a) Hill-climb would make the most sense to use in local beam search
+    b) About a dozen would be sufficient for this problem, but more could be used to more likely get the best answer
+    c) Beam search would keep track of a number of solutions, choose the best among the solutions and retry from there unless the goal was found. This is different from random restarts in that the restarts for local beam search are not random, but the most likely to succeed.

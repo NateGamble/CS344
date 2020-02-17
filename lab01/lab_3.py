@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/home/neg6/cs344/cs344-code/tools/aima')
+sys.path.append('/home/neg6/cs344/cs344-code/tools/paip')
 from gps import gps
 
 # Problem is simple maze, 3x3 grid with the start in bottom right corner, finish in the bottom left corner
