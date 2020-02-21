@@ -1,0 +1,19 @@
+3.1
+    a. Depth-first search and min conflicts don't work on the easy puzzle, 
+        AC3 and backtracking search both work on the easy puzzle, but AC3 is much
+        faster than backtracking. AC3 doesn't work on the harder puzzle. Backtracking should 
+        work on the harder sudoku puzzle, but not in any amount of reasonable time (at least 5
+        minutes without knowing if it's failed or suceeded)
+    b.  Using just the mrv variable for the select_unassigned_variable parameter makes the
+        backtracking algorithm take significantly longer on the easy puzzle, but using
+        it in combination with forward_checking makes it run really fast. Using just
+        forward_checking has no significant time difference from using both with the easy
+        sudoku. The difference becomes quite apparent however when trying it on the harder
+        puzzle. Just forward_checking runs faster than without, but it still takes a minute.
+        Using both mrv and forward_checking solves the puzzle in around a second.
+        Using both mrv and forward_checking solves the hardest problem really fast as well.
+
+3.2
+    a.  Min-conflicts: Very big. n=5000 took about 10 seconds
+        AC3: Big, but not huge. n=300 takes about 10 seconds
+        Backtracking: about 27
