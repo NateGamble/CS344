@@ -16,4 +16,16 @@
 3.2
     a.  Min-conflicts: Very big. n=5000 took about 10 seconds
         AC3: Big, but not huge. n=300 takes about 10 seconds
-        Backtracking: about 27
+        Backtracking: Beyond 27ish, the time increases significantly
+    b. mrv makes backtracking search go much faster - from about 50 seconds with n=28 to
+        less than a second. Adding forward_checking makes no noticeable difference with small n,
+        but significantly saves time with large n. Using only forward_checking makes the
+        algorithm take about 25 seconds with n=28, which is a great time save over
+        not having any parameters, but lots slower than using mrv. So using mrv
+        and forward_checking is the best setting for the backtracking algorithm.
+    c. I'm not entirely sure what you mean by this question. Min-conflicts only requires 1
+        step to find the correct solution, but the odds for finding the correct solution
+        increase with the amount of steps until the number of steps allowed is greater than
+        or equal to the number of maximum possible steps.
+3.3
+    a. 
