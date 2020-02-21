@@ -28,4 +28,17 @@
         increase with the amount of steps until the number of steps allowed is greater than
         or equal to the number of maximum possible steps.
 3.3
-    a. 
+    a. Traditional problem solving has each possible move as a state, whereas CSP limits
+        states to only moves that satisfy (or keep satisfied) the constraints. CSP has
+        more limited domain that each variable can be associated with, where the domain for
+        traditional is all possible moves, one of which is generally better than others.
+        Traditional search takes an action with the best result, whereas CSP takes an action
+        towards satisfying constraints. Traditional has goal tests of "is this the final
+        solution?", but CSP can break down the final goal into subgoals and work towards
+        satisfying each of those.
+    b. The heuristics between traditional and constraint-based problem solving are similar,
+        but focus on different things. Traditional search looks for the best solution
+        (or next step) it can find and follows that path, with how good each step or solution
+        is as the heuristic. Constraint-based uses logic to take the next step that satisfies
+        the constraints, then the next and the next until it has found a solution with all
+        constraints satisfied.
