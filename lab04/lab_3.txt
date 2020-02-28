@@ -1,0 +1,8 @@
+a.
+    i. P(User):     False: .911, True: .089
+    ii. P(test | user) = .99
+    iii. P(!test | user) = .01
+    iv. P(test | !user) = .02
+    v. P(User | test):  False: 
+        P(user | test) = P(test | user) * P(user) / P(test) = .99 * .089 / .106 = .831
+        P(user | !test) = P(!test | user) * P(user) / P(!test) = .01 * .089 / .894 = .000
