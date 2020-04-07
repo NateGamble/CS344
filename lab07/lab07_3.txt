@@ -1,0 +1,2 @@
+Synthetic features can be used to get ratios of data.
+Outliers are data points that skew the data remarkably. Outliers are typically clipped out of the data set when plotting or analyzing the data.

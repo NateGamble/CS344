@@ -1,0 +1,2 @@
+It would be useful to use Pandas instead of the data manipulation given by Numpy because with Pandas you are able to add labels to your data, making it more readable.
+It may be useful to reorder a Pandas Dataframe when looking for randomized results or if you are just looking at the first few data points and want to make sure you get an accurate picture. Randomizing the order of the data points may allow you to see a more accurate sample if you are only looking at the first 50 datapoints from a dataset.

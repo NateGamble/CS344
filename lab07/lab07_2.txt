@@ -1,0 +1,12 @@
+Hyper-parameters for exercise 1:
+	learning_rate: .0001
+	steps: 500
+	batch_size: 500
+	RMSE: 166.32
+Hyper-parameters for exercise 2:
+	learning_rate: .0001
+	steps: 500
+	batch_size: 1000
+	RMSE: 175.92
+
+The hyper-parameters learned in these exercises are batch size, steps and learning rate. There's no standard tuning algorithm for these hyper-parameters, but there are some rules of thumbs like try large batch sizes and go smaller from there.
