@@ -1,0 +1,2 @@
+The Pearson correlation coefficient measures the correlation (positive or negative) between data points. One example is median_house_value has a PCC of .7 with median_income. It makes sense that these two would be positively correlated because the more you make, generally the more expensive your house.
+I included the median_income and rooms_per_person features for task 1, with a RMS error of 85.25. The synthetic feature I developed for task 2 was latitude + longitude with RMS 98.66. I was able to beat the Google baseline RMS for both tasks.

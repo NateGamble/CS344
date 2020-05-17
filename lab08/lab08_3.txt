@@ -1,0 +1,3 @@
+The FtrlOptimizer takes in the learning rate and optimizes it for the L1 algorithm, then uses these optimizations in training the linear regressor.
+Bucketing allows more accurate predictions for the linear regression models by separating columns into multiple pieces.
+Their bucketing made sense, but I wish there was more concrete data about how many buckets you should use for your data (or just more clear rules of thumb). One feature cross for Task 2 could be households and median_income. This may help because it can more accurately predict how rich/poor neighborhoods are (and thus the housing price) by looking at places with high households and low median income (poor neighborhoods).
